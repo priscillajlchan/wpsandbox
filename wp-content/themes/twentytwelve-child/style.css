@@ -1,0 +1,14 @@
+/*
+Theme Name: Twenty Twelve Child Theme (EMD Web 3)
+Theme URI: http://localhost:8888/web3/wptestsite/
+Description: Our child theme used for homework
+Author: Priscilla Chan
+Author URI: www.priscillajchan.com
+Template: twentytwelve
+Version: 0.1
+*/
+@import url("../twentytwelve/style.css");
+
+.site-title {
+	color: red !important;
+}
