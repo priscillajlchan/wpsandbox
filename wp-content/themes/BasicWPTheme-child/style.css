@@ -1,0 +1,119 @@
+/*
+Theme Name: BLM-Basic Child Theme (EMD Web 3)
+Theme URI: http://localhost:8888/web3/wptestsite/
+Description: Your theme description goes here
+Author: Priscilla Chan
+Author URI: www.priscillajchan.com
+Template: BasicWPTheme
+Version: 0.1
+*/
+
+/*Original File*/
+
+
+@import url("../BasicWPTheme/style.css");
+
+body {
+	background: url('../../../assets/img/bg.gif');
+	font-family: 'Helvetica Neue', sans serif;
+}
+
+#branding {
+	background:url('../../../assets/img/logo.png') no-repeat;
+	position:relative;
+	top: 45px;
+	left: 45px;
+	height: 130px;
+	width: 960px;
+}
+
+
+#main {
+	border-top:#48244c 12px solid;
+	margin-left:25px;
+	width:890px;
+}
+
+#wrap {
+	background: #FFF;
+	width: 960px;
+}
+
+#top-nav {
+	position:absolute;
+	background-color: transparent;
+	text-transform: uppercase;
+	top: 62px;
+	left: 310px;
+	width: 660px;
+	font-family: 'Helvetica Neue', Ariel, sans serif;
+}
+
+#top-nav ul li a {
+
+	font-size: 17px;
+	letter-spacing: 3px;
+	color: #99619F;
+}
+
+#top-nav ul li a:hover, 
+#top-nav ul li.current_page_item a,
+#top-nav ul li.current_page_parent a,
+#top-nav ul li.current_page_ancestor a,
+#top-nav ul li.current-menu-ancestor a, 
+#top-nav ul li.current-menu-item a,
+#top-nav ul li.current-menu-parent a {
+    background-color: transparent;
+    color: #99619F;
+}
+
+#sidebar {
+	position: relative;
+	right: 29px;
+	width: 275px;
+	float: none;
+	background-color: #fff;
+}
+
+#sidebar li{
+	border-bottom: 2px #CCCCCC solid;
+}
+
+#sidebar h4 {
+	color:#FFFFFF;
+	padding: 5px 0 5px 0px;
+	padding-left:8px;
+	margin-bottom: 10px;
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+h4 {
+	background-color: #99619f;
+	font-family: 'Helvetica Neue', Ariel, sans serif;
+	color:#fff;
+}
+
+#content { 
+	float: right;
+	width: 580px;
+}
+
+#content p {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+footer {
+    text-align: right;
+}
+footer p{
+    color:#99619F;
+    left: 50px;
+    letter-spacing: 3px;
+}
+
+/*.home #top-nav {
+	background-color: #CCCCCC;
+}*/
+
