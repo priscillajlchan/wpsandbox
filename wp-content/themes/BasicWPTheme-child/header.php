@@ -18,7 +18,20 @@
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
+
 <?php wp_head(); ?>
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+		$("dt > a").addClass('thickbox');
+	});
+
+
+</script>
+
+
+
+
+
 </head>
 <body <?php body_class(); ?>>
 	

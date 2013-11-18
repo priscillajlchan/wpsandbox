@@ -29,12 +29,12 @@ get_header(); ?>
 
 			<?php 
 
-			$meta_quote = get_post_meta($post->ID, 'quotation', true);
-			if ($meta_quote) { 
-				echo "<p>Quote: <strong>".$meta_quote."</strong></p>";
-			}else{
-				echo "you forgot to insert a quote";
-			}
+			// $meta_quote = get_post_meta($post->ID, 'quotation', true);
+			// if ($meta_quote) { 
+			// 	echo "<p>Quote: <strong>".$meta_quote."</strong></p>";
+			// }else{
+			// 	echo "you forgot to insert a quote";
+			// }
 			?>
 
 			<div class="post-line"></div>

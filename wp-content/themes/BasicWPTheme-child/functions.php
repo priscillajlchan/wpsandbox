@@ -87,4 +87,21 @@ function register_taxonomy_locations() {
     register_taxonomy( 'locations', array('testimonal'), $args );
 }
 
+function my_scripts_method(){
+    wp_enqueue_script('jquery');
+    wp_enqueue_script('thickbox');
+}
+// add_action('wp_enqueue_scripts', 'my_scripts_method');
+
+if (function_exists('register_sidebar')) {
+ register_sidebar(array(
+ 'name' => 'Home Twitter Area',
+ 'id' => 'home-twitter',
+ 'description' => 'Add Twitter widget here',
+ 'before_widget' => ' ',
+ 'after_widget' => ' ',
+ 'before_title' => '<h3>',
+ 'after_title' => '</h3>'
+ ));
+}
 ?>
